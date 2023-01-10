@@ -1,4 +1,4 @@
-# useful
+# commands
 
 ## Start sidekiq
 ```
@@ -33,5 +33,12 @@ Run in rails console:
 ## ember test helpers
 [https://github.com/emberjs/ember-test-helpers/blob/master/API.md](https://github.com/emberjs/ember-test-helpers/blob/master/API.md)
 
+## ember-cli-mirage
+
+[https://www.ember-cli-mirage.com/docs/getting-started/overview](https://www.ember-cli-mirage.com/docs/getting-started/overview)
+
 ## ember route lifecycle
 [https://gist.github.com/Andrew-Max/305483febc3c367dbf57](https://gist.github.com/Andrew-Max/305483febc3c367dbf57)
+
+# Other
+[Get generated SQL query from rails migration](https://stackoverflow.com/questions/15852872/show-sql-generated-by-pending-migrations-in-rails-without-updating-the-database)
