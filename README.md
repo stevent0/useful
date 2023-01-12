@@ -8,10 +8,14 @@ TZ=America/Los_Angeles SIDEKIQ_COUNT=2 bundle exec sidekiqswarm
 
 ## Clear sidekiq job queue
 Run in rails console:
-`Sidekiq.redis { |conn| conn.flushdb }`
+```
+Sidekiq.redis { |conn| conn.flushdb }
+```
 
 ## Kill rails server
-`kill -9 $(lsof -i tcp:3000 -t)`
+```
+kill -9 $(lsof -i tcp:3000 -t)
+```
 
 # api
 
